@@ -1,54 +1,22 @@
-## Teste para Desenvolvedor PHP/Laravel
+OK OBJETIVO: DESENVOLVER API REST PARA CRUD DE FORNECEDORES 
+OK CAMPOS (CNPJ/CPF, NOME, CONTATO, ENDERECO)
+OK LARAVEL + MYSQL
+OK CRUD:
+OK SELECT (
+  COM FILTRO DE BUSCA ?NOME=XYZ & EMAIL=A@A.COM
+  COM ORDENAÇÃO ?ORDERBY=NOME & TYPE=ASC
+  COM PAGINAÇÃO ?PAGE=1
+)
+OK SHOW (COM BUSCA UNICA POR ID)
+OK DELETE (COM SOFT DELETE !)
+OK UPDATE (COM VALIDACAO)
+OK CREATE (COM VALIDACAO CNPJ OU CPF EM API WEB)
+OK MIGRATION E SEED
+OK BUSCA POR CNPJ NA BRASIL API (CREATE,UPDATE)
+OK TECNOLOGIAS LARAVEL + MYSQL
+OK REQUISITO FUNCIONAL E TECNICO
+OK ORGANIZACAO CODIGO E PADROES
+OK DOCUMENTAÇÃO/COMENTARIOS   
+X BONUS
 
-Bem-vindo ao teste de desenvolvimento para a posição de Desenvolvedor PHP/Laravel. 
-
-O objetivo deste teste é desenvolver uma API Rest para o cadastro de fornecedores, permitindo a busca por CNPJ ou CPF, utilizando Laravel no backend.
-
-## Descrição do Projeto
-
-### Backend (API Laravel):
-
-#### CRUD de Fornecedores:
-- **Criar Fornecedor:**
-  - Permita o cadastro de fornecedores usando CNPJ ou CPF, incluindo informações como nome/nome da empresa, contato, endereço, etc.
-  - Valide a integridade e o formato dos dados, como o formato correto de CNPJ/CPF e a obrigatoriedade de campos.
-
-- **Editar Fornecedor:**
-  - Facilite a atualização das informações de fornecedores, mantendo a validação dos dados.
-
-- **Excluir Fornecedor:**
-  - Possibilite a remoção segura de fornecedores.
-
-- **Listar Fornecedores:**
-  - Apresente uma lista paginada de fornecedores, com filtragem e ordenação.
-
-#### Migrations:
-- Utilize migrations do Laravel para definir a estrutura do banco de dados, garantindo uma boa organização e facilidade de manutenção.
-
-## Requisitos
-
-### Backend:
-- Implementar busca por CNPJ na [BrasilAPI](https://brasilapi.com.br/docs#tag/CNPJ/paths/~1cnpj~1v1~1{cnpj}/get) ou qualquer outro endpoint público.
-
-## Tecnologias a serem utilizadas
-- Framework Laravel (PHP) 9.x ou superior
-- MySQL ou Postgres
-
-## Critérios de Avaliação
-- Adesão aos requisitos funcionais e técnicos.
-- Qualidade do código, incluindo organização, padrões de desenvolvimento e segurança.
-- Documentação do projeto, incluindo um README detalhado com instruções de instalação e operação.
-
-## Bônus
-- Implementação de Repository Pattern.
-- Implementação de testes automatizados.
-- Dockerização do ambiente de desenvolvimento.
-- Implementação de cache para otimizar o desempenho.
-
-## Entrega
-- Para iniciar o teste, faça um fork deste repositório; Se você apenas clonar o repositório não vai conseguir fazer push.
-- Crie uma branch com o nome que desejar;
-- Altere o arquivo README.md com as informações necessárias para executar o seu teste (comandos, migrations, seeds, etc);
-- Depois de finalizado, envie-nos o pull request;
-
-
+*IDEAL ERA CRIAR UM FORMA DE ATUTENTICAÇÃO COM TOKEN PARA RESTRINGIR ACESSO.
